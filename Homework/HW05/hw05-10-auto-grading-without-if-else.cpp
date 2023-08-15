@@ -44,28 +44,28 @@ int main() {
         case 7:
         case 8:
         case 9:
-            printf("F!\n");
+            printf("F !\n");
             break;
         case 10:
-            printf("D!\n");
+            printf("D !\n");
             break;
         case 11:
-            printf("D+!\n");
+            printf("D+ !\n");
             break;
         case 12:
-            printf("C!\n");
+            printf("C !\n");
             break;
         case 13:
-            printf("C+!\n");
+            printf("C+ !\n");
             break;
         case 14:
-            printf("B!\n");
+            printf("B !\n");
             break;
         case 15:
-            printf("B+!\n");
+            printf("B+ !\n");
             break;
         default:
-            printf("A!\n");
+            printf("A !\n");
             break;
     }
     
