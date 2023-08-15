@@ -28,11 +28,13 @@
         F !
 */
 #include <stdio.h>
+
 int main() {
-    int score ;
-    printf("enter score :\n");
+    int score;
+    printf("enter score:\n");
     scanf("%d", &score);
-    switch (score / 5){
+    
+    switch (score / 5) {
         case 1:
         case 2:
         case 3:
@@ -42,30 +44,30 @@ int main() {
         case 7:
         case 8:
         case 9:
-        printf( "F!\n" ) ;
-        break;
-        case 10:
-        printf( "D!\n" ) ;
-        break;
-        case 11:
-        printf( "D+!\n" ) ;
-        break;
-        case 12:
-        printf( "C!\n" ) ;
-        break;
-        case 13:
-        printf( "C+!\n" ) ;
-        break;
-        case 14:
-        printf( "B!\n" ) ;
-        break;
-        case 15:
-        printf( "B+!\n" ) ;
-        break;
-        default:
-        printf("A !\n");
+            printf("F!\n");
             break;
-        break;
+        case 10:
+            printf("D!\n");
+            break;
+        case 11:
+            printf("D+!\n");
+            break;
+        case 12:
+            printf("C!\n");
+            break;
+        case 13:
+            printf("C+!\n");
+            break;
+        case 14:
+            printf("B!\n");
+            break;
+        case 15:
+            printf("B+!\n");
+            break;
+        default:
+            printf("A!\n");
+            break;
     }
-    return 0 ;
+    
+    return 0;
 }
